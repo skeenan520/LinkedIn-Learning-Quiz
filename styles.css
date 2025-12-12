@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 600px;
+}
+h1 {font-size: 2.5rem;
+    line-height:1.05;
+    text-align: left;}
+
+p {
+    font-size: 1.125 rem;
+    line-height: 1.2;
+}
+
+.title-block {
+    width: 580px;
+    height: 210px;
+    background-color: rgb(102,96,221);
+    border-radius: 0px;
+    padding-left: 10px;
+    padding-right:10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.05;
+    text-align: center;
+    
+
+}
+
+.answer-options {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px 0 23px 0;
+}
+
+.answer-block {
+    width:286px;
+    height:286px;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0, 0.07) 0 0 0 1px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.answer-block img {
+    width: 100%
+}
+
+.answer-block p {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.answer-block a {
+    color: grey;
+}
+
+.result-block {
+    width: 560px;
+    background-color:pink;
+    line-height: 30px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 5px;
+    border-color:  black;
+    border: solid;
+    margin-bottom:100px;
+    background-image: linear-gradient(to right, rgb(244, 186, 235), rgb(160, 252, 212));
+}
+
+.result-block img { 
+    width: 100%;
+}
